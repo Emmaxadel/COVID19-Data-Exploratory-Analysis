@@ -38,22 +38,27 @@
 
 <h2>Analysis</h2>
 <p>Pivot table was used for the analysis</p>
+</br>
 <img src="https://user-images.githubusercontent.com/82924138/178301904-4ad493da-c14c-4a77-8019-1111a4d46117.png"/>
 
 <h2>Dashboard</h2>
 
 <p>The Dashboard was created using pivot table charts</p>
+</br>
 <img src = "https://user-images.githubusercontent.com/82924138/178303069-35470d57-63ab-4500-9900-a7e45c6d05ae.png", width = 600px>
 
 <h2>Findings</h2>
 
 <li>United States has the highest documented COVID19 cases - about 88.6 million confirmed cases</li>
+</br>
 <img src = "https://user-images.githubusercontent.com/82924138/178304891-8cd8e4dc-7f33-48a0-9658-5014131160cb.png">
 
 <li>North korea has the lowest documented COVID19 case - just 1 confirmed case</li>
+</br>
 <img src = "https://user-images.githubusercontent.com/82924138/178305638-a24a287a-7ce7-4e5e-87a7-bb8fe5b110b9.png">
 
 <li>From 2020 till the date of documentation, the total confirmed COVID19 cases is about 555 million with a mortality rate of 1.14%</li>
+</br>
 <img src = "https://user-images.githubusercontent.com/82924138/178306529-4698dd74-29e9-47e1-a668-0eebb1371912.png">
 
 <h2>Reccomendation</h2>
