@@ -29,23 +29,26 @@
 
 ```ConsolidatedData``` 
 
-<h2>Pre-Proceesing</h2>
+<h2>Pre-Processing</h2>
 <p>Since the datasets have cummulative values, in order to get the latest number of <strong>Confirmed</strong> and <strong>Death</strong> cases, 2 new columns were created in <strong>ConsolidatedData</strong> Tab</p>
 
 <p>The following formula was used to get the latest <strong>Confirmed</strong> and <strong>Death</strong> values for each countries, then they were summed up</p>
 
 ```=IF(E2 = (TODAY()-2), F2, "")``` and ```=IF(E2 = (TODAY()-2), G2, "")```
+<p>The formula returns the confirmed and death values for each countries 2 days before the current day (TODAY()-2). Delaying the data by a day is intentional in case the data was not yet uploaded at the time of exploration</p>
 
 <h2>Analysis</h2>
 <p>Pivot table was used for the analysis</p>
 </br>
-<img src="https://user-images.githubusercontent.com/82924138/178301904-4ad493da-c14c-4a77-8019-1111a4d46117.png"/>
+<img src="https://user-images.githubusercontent.com/82924138/178895672-91b60064-2f36-4f52-bae2-bcd7d7e0fe8c.png"/>
+
 
 <h2>Dashboard</h2>
 
 <p>The Dashboard was created using pivot table charts</p>
 </br>
-<img src = "https://user-images.githubusercontent.com/82924138/178303069-35470d57-63ab-4500-9900-a7e45c6d05ae.png", width = 600px>
+<img src = "https://user-images.githubusercontent.com/82924138/178895793-4e1567eb-1383-464b-8ec3-56a60232be4c.png">
+
 
 <h2>Findings</h2>
 
